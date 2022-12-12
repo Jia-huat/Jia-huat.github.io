@@ -102,3 +102,13 @@
     background: rgba(25, 25, 25, 0.9) !important;
     color: #ffffff;
   }
+
+  /*笔者自己修改的部分*/
+mark
+{   background: #a5f3a2;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 3.3px;
+    color:     red;
+    font: bolder 20px "楷体";
+}
