@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>JS的BOM</title>
+      <link href="/2022/12/20/JS%E7%9A%84BOM/"/>
+      <url>/2022/12/20/JS%E7%9A%84BOM/</url>
+      
+        <content type="html"><![CDATA[<h1 id="BOM简述"><a href="#BOM简述" class="headerlink" title="BOM简述"></a>BOM简述</h1><p><img src="/2022/12/20/JS%E7%9A%84BOM/%E5%8C%85%E5%90%AB%E8%8C%83%E5%9B%B4.png"></p><blockquote><p>BOM比DOM更大，他管理着整个窗口</p></blockquote><p><img src="/2022/12/20/JS%E7%9A%84BOM/%E4%BB%80%E4%B9%88%E6%98%AFBOM.png"></p><blockquote><p>整个窗口的交互，滚动条啊，页面返回、刷新等等</p></blockquote><p><img src="/2022/12/20/JS%E7%9A%84BOM/BOM%E6%9E%84%E6%88%90.png"></p><hr><h2 id="窗口事件"><a href="#窗口事件" class="headerlink" title="窗口事件"></a>窗口事件</h2><blockquote><p>窗口事件的区别</p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"> <span class="comment">//1.等待页面加载完后进行，只执行最后一组</span></span></span><br><span class="line"><span class="language-javascript">   <span class="variable language_">window</span>.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;&#125;</span></span><br><span class="line"><span class="language-javascript">   <span class="comment">//2.可以执行多个</span></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;load&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">        &#125;)</span></span><br><span class="line"><span class="language-javascript"> <span class="comment">//3.主要的DOM交互效果，（不包括图片,flash,css）加载完就可以执行</span></span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">&#125;)</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><blockquote><p>调整窗口大小</p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"> <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;resize&#x27;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">     <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;窗口变化了&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        &#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><hr><h3 id="定时器"><a href="#定时器" class="headerlink" title="定时器"></a>定时器</h3><h4 id="setTimeout"><a href="#setTimeout" class="headerlink" title="setTimeout()"></a>setTimeout()</h4><blockquote><p>延迟函数</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">fn</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;出现&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">fn</span>();</span><br><span class="line"><span class="keyword">var</span> time1 = <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(fn,时间);<span class="comment">//time为标识符</span></span><br></pre></td></tr></table></figure><blockquote><p>clearTimeout(timer);</p><p>停止定时器的函数</p></blockquote><hr><h4 id="setlnterval"><a href="#setlnterval" class="headerlink" title="setlnterval()"></a>setlnterval()</h4><blockquote><p>每隔一段时间之后就重新调用</p><p>下面是倒计时的使用</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> hour = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.hour&#x27;</span>);</span><br><span class="line">        <span class="keyword">var</span> minute = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.minute&#x27;</span>);</span><br><span class="line">        <span class="keyword">var</span> second = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.second&#x27;</span>);</span><br><span class="line">        <span class="keyword">var</span> inputTime = +<span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&#x27;2022-12-19 23:59:59&#x27;</span>);<span class="comment">//返回的是用户输入的总毫秒数</span></span><br><span class="line">        <span class="keyword">function</span> <span class="title function_">getTime</span>(<span class="params">time</span>) &#123;</span><br><span class="line">            <span class="keyword">var</span> nowTime = +<span class="keyword">new</span> <span class="title class_">Date</span>();<span class="comment">//时间戳</span></span><br><span class="line">            <span class="variable language_">console</span>.<span class="title function_">log</span>(nowTime);</span><br><span class="line"></span><br><span class="line">            <span class="keyword">var</span> times = (inputTime - nowTime) / <span class="number">1000</span>;<span class="comment">//剩余时间（单位秒）</span></span><br><span class="line">            <span class="keyword">var</span> d = <span class="built_in">parseInt</span>(times / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>);<span class="comment">//天数</span></span><br><span class="line">            <span class="keyword">var</span> h = <span class="built_in">parseInt</span>(times / <span class="number">60</span> / <span class="number">60</span> % <span class="number">24</span>);<span class="comment">//当天的余数小时</span></span><br><span class="line">            <span class="keyword">var</span> m = <span class="built_in">parseInt</span>(times / <span class="number">60</span> % <span class="number">60</span>);</span><br><span class="line">            <span class="keyword">var</span> s = <span class="built_in">parseInt</span>(times % <span class="number">60</span>);</span><br><span class="line">            hour.<span class="property">innerHTML</span> = h;</span><br><span class="line">            minute.<span class="property">innerHTML</span> = m;</span><br><span class="line">            second.<span class="property">innerHTML</span> = s;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="title function_">getTime</span>();</span><br><span class="line">        <span class="keyword">var</span> timer = <span class="built_in">setInterval</span>(getTime, <span class="number">1000</span>);<span class="comment">//每秒调用一次</span></span><br></pre></td></tr></table></figure><blockquote><ul><li>添加一个停止/开始功能</li></ul></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">btn</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (stop.<span class="property">value</span> === <span class="string">&#x27;停止&#x27;</span>) &#123;</span><br><span class="line">            <span class="built_in">clearInterval</span>(timer);</span><br><span class="line">            stop.<span class="property">value</span> = <span class="string">&#x27;开始&#x27;</span>;</span><br><span class="line">            <span class="variable language_">console</span>.<span class="title function_">log</span>(stop.<span class="property">value</span>);</span><br><span class="line">            <span class="comment">// stop.disabled = true;</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (stop.<span class="property">value</span> === <span class="string">&#x27;开始&#x27;</span>) &#123;</span><br><span class="line">                <span class="built_in">clearInterval</span>(timer);</span><br><span class="line">                 timer = <span class="built_in">setInterval</span>(getTime, <span class="number">1000</span>);</span><br><span class="line">                stop.<span class="property">value</span> = <span class="string">&#x27;停止&#x27;</span>;</span><br><span class="line">                <span class="variable language_">console</span>.<span class="title function_">log</span>(stop.<span class="property">value</span>);</span><br><span class="line">            &#125;              </span><br><span class="line">    &#125;&#125;         </span><br><span class="line">stop.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">   <span class="title function_">btn</span>();</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JS的DOM</title>
       <link href="/2022/12/14/JS%E7%9A%84DOM/"/>
       <url>/2022/12/14/JS%E7%9A%84DOM/</url>
@@ -83,9 +96,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
-      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -105,17 +129,6 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -127,9 +140,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title></title>
+      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
+      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
       
         <content type="html"><![CDATA[]]></content>
       
