@@ -112,3 +112,135 @@ mark
     color:     red;
     font: bolder 20px "楷体";
 }
+
+/*添加三个灯*/
+
+
+#article-container .highlight-tools .expand {
+  position: absolute;
+  padding: 0.57em 0.7em;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+  right: 2.1em;
+}
+#article-container .highlight-tools .expand + .code-lang {
+  left: 75px;
+}
+#article-container .highlight-tools .expand.closed {
+  -webkit-transition: all s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: rotate(-90deg) !important;
+  -moz-transform: rotate(-90deg) !important;
+  -o-transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+}
+#article-container .highlight-tools .code-lang {
+  position: absolute;
+  left: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.15em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#article-container .highlight-tools .copy-notice {
+  position: absolute;
+  right: 2.4em;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -ms-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+#article-container .highlight-tools .copy-button {
+  position: absolute;
+  right: 14px;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+#article-container .highlight-tools .copy-button:hover {
+  color: #49b1f5;
+}
+.highlight-tools:after{
+    /* float: left; */
+    position: absolute;
+    border-radius: 50%;
+    background: #fc625d;
+    width: 12px;
+    height: 12px;
+    left: 12px;
+    -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    content: '';
+}
+/*代码表格背景*/
+:root {
+  --blue-custom: #5ea6e5;
+  --loading-color: rgba(207, 246, 247, 0.92);
+  --border-color: #c9c9c9;
+  --color-red: rgb(241, 71, 71);
+  --color-orange: rgb(241, 162, 71);
+  --color-yellow: rgb(241, 238, 71);
+  --color-purple: rgb(179, 71, 241);
+  --color-blue: rgb(102, 204, 255);
+  --color-gray: rgb(226, 226, 226);
+  --color-green: rgb(57, 197, 187);
+  --color-whitegray: rgb(241, 241, 241);
+  --color-pink: rgb(237, 112, 155);
+  --color-black: rgb(0, 0, 0);
+  --color-darkblue: rgb(97, 100, 159);
+  --color-heoblue: rgb(66, 90, 239);
+  --btn-bg: var(--theme-color)!important;
+  --scrollbar-color: var(--theme-color)!important;
+  --border-style: 1px solid rgba(169, 169, 169, 0.7);
+  --hlnumber-bg: #282c34;
+  --hltools-bg: #1c1c1c;
+  --hl-bg: #282c34;
+}
+
+/*间隔线*/
+#article-container figure.highlight table {
+  display: block;
+  overflow: auto;
+  border: #404041 solid 0.1px;
+  border-radius: 0 0 6px 6px;
+  border-top: none;
+}
+
+#article-container figure.highlight .gutter pre {
+
+  border-right: #808081 solid 0.1px
+}
+.highlight-tools{
+  border: #404041 solid 0.1px;
+  border-radius: 6px 6px 0 0;
+  border-bottom: none;
+}
+
+/*框子*/
+blockquote {
+  margin: 0 0 20px;
+  padding: 12px 15px;
+  border-left: 0.5px solid #808486;
+  border-radius: 8px;
+  background-color: var(--blockquote-bg);
+  color: var(--blockquote-color);
+  box-shadow: -2px 0px 9px -2px #49b1f5;
+}
