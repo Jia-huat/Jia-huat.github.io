@@ -244,3 +244,6 @@ blockquote {
   color: var(--blockquote-color);
   box-shadow: -2px 0px 9px -2px #49b1f5;
 }
+.highlight {
+  border-radius: 6px 6px 6px 6px;
+}
