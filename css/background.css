@@ -247,3 +247,11 @@ blockquote {
 .highlight {
   border-radius: 6px 6px 6px 6px;
 }
+/* 高亮修改 */
+#article-container code{
+  background: none;
+  padding: 0 3px 0 3px;
+  color: rgb(255, 77, 0);
+  font: 1.05em bold;
+  text-shadow: 1px 1px 11px #2285c3;
+}
