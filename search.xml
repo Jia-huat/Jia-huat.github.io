@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Git基本用法</title>
+      <link href="/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/"/>
+      <url>/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Git的初认识"><a href="#Git的初认识" class="headerlink" title="Git的初认识"></a>Git的初认识</h2><p><img src="/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Git%E5%B7%A5%E4%BD%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png"></p><h3 id="git创建仓库"><a href="#git创建仓库" class="headerlink" title="git创建仓库"></a>git创建仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#1.仓库初始化，同时生成默认master分支</span></span><br><span class="line">git init</span><br></pre></td></tr></table></figure><blockquote><ul><li>每次操作之前都要进行git init</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#2.将内容放到暂缓区(因为不是指定，所以可能会有多余文件)</span></span><br><span class="line">git add .</span><br><span class="line"><span class="comment">#2.详细文件</span></span><br><span class="line">git add 文件</span><br></pre></td></tr></table></figure><blockquote><ul><li>送至暂缓区(修改的文件需要追踪才能提交)</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#3.将暂缓区的信息提交</span></span><br><span class="line">git commit</span><br><span class="line"><span class="comment">#包含了add,但可能会有多余文件</span></span><br><span class="line">git commit -a -m <span class="string">&quot;修改注释&quot;</span></span><br></pre></td></tr></table></figure><blockquote><ul><li>-m  “修改注释”</li><li><code>一键提交不知道为什么不行</code></li></ul></blockquote><hr><h2 id="git分支管理"><a href="#git分支管理" class="headerlink" title="git分支管理"></a>git分支管理</h2><p><img src="/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.png"></p><h3 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#1.生成分支</span></span><br><span class="line">git branch 分支名字</span><br></pre></td></tr></table></figure><blockquote><ul><li>第一次提交会有默认分支master</li></ul></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#2.切换到()分支</span></span><br><span class="line">git checkout 分支名字</span><br><span class="line"><span class="comment">#2.一步到位，生成+切换</span></span><br><span class="line">git checkout -b 文件</span><br></pre></td></tr></table></figure><blockquote><ul><li>git branch -d 文件 (删除分支,<code>切换出才能删除</code>)</li><li>切换分支需要<code>先提交修改</code></li></ul></blockquote><h3 id="分支的细节"><a href="#分支的细节" class="headerlink" title="分支的细节"></a>分支的细节</h3><blockquote><ul><li><code>git log(上一次的提交记录)</code>查看当前分支</li></ul></blockquote><p><img src="/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/%E5%B7%A5%E4%BD%9C%E5%88%86%E6%94%AF.png"></p><blockquote><p>1.<code>HEAD→指向当前工作的分支</code></p><p>2.切换分支需要<code>先提交修改</code></p><p>3.分支没有commit到本地时(新的改动)，会保留上一次提交的最初状态。(我理解为，各个分支独立)</p></blockquote><hr><h3 id="分支合并"><a href="#分支合并" class="headerlink" title="分支合并"></a>分支合并</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#分支合并</span></span><br><span class="line">git merge 分支名字</span><br></pre></td></tr></table></figure><blockquote><ul><li><p>合并之前，需要提交修改</p></li><li><p>合并前可以通过git status查看未提交</p></li><li><p>合并会提示内容差别</p></li></ul></blockquote><hr><h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><p><img src="/2023/02/28/Git%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/Git%E5%B7%A5%E4%BD%9C%E7%A4%BA%E6%84%8F%E5%9B%BE2.png"></p><h3 id="远程项目操作"><a href="#远程项目操作" class="headerlink" title="远程项目操作"></a>远程项目操作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 项目地址</span><br></pre></td></tr></table></figure><blockquote><p>没怎么用过，可以复制别人的项目，不建议github的(卡)</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#将本地仓库推到远程仓库</span></span><br><span class="line">git push 地址</span><br></pre></td></tr></table></figure><blockquote><p>绑定仓库之后直接push就好了</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 到分支master</span></span><br><span class="line">git pull --rebase origin master  </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JS小技巧</title>
       <link href="/2023/02/23/JS%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
       <url>/2023/02/23/JS%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
@@ -112,6 +125,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
+      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/background.css"/>
       <url>/css/background.css</url>
       
@@ -122,9 +146,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
-      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -144,31 +179,9 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
