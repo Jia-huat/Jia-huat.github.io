@@ -215,9 +215,9 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -238,17 +238,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
-      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/background.css"/>
       <url>/css/background.css</url>
       
@@ -259,9 +248,20 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
+      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
       
         <content type="html"><![CDATA[]]></content>
       
