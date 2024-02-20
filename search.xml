@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>数列运算</title>
+      <link href="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/"/>
+      <url>/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129145816036.png" alt="image-20240129145816036"></p><blockquote><p>听说很简单，可以基本都能拿分</p></blockquote><h1 id="基础数列"><a href="#基础数列" class="headerlink" title="基础数列"></a>基础数列</h1><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129150056305.png" alt="image-20240129150056305"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129150039886.png" alt="image-20240129150039886"></p><blockquote><p>记住这两个数字可以快速判断质数合数2、9</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129150130516.png" alt="image-20240129150130516"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129150213795.png" alt="image-20240129150213795"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129150423385.png" alt="image-20240129150423385"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129160402501.png" alt="image-20240129160402501"> </p><blockquote><p>等差等比</p><p>质数与合数的加减变形</p></blockquote><hr><h1 id="多重数列"><a href="#多重数列" class="headerlink" title="多重数列"></a>多重数列</h1><h2 id="隔着混合"><a href="#隔着混合" class="headerlink" title="隔着混合"></a>隔着混合</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129161520774.png" alt="image-20240129161520774"></p><blockquote><p>将数列隔着混在一起</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129161557535.png" alt="image-20240129161557535"></p><h2 id="两两分组"><a href="#两两分组" class="headerlink" title="两两分组"></a>两两分组</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129161710470.png" alt="image-20240129161710470"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129162621596.png" alt="image-20240129162621596"></p><blockquote><p>对数不够四组一般就是两两来凑</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129162743156.png" alt="image-20240129162743156"></p><blockquote><p>中间突然冒很小的数字</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129162934084.png" alt="image-20240129162934084"></p><blockquote><p>协同关系，只有一个括号不够四组另一组可能是辅助作用<code>(规律类似)</code></p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129163311851.png" alt="image-20240129163311851"></p><blockquote><p>两两，但够四组且一个括号。</p><p>很可能是两个组合或者三个组合的关系</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129165750481.png" alt="image-20240129165750481"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129170204727.png" alt="image-20240129170204727"></p><blockquote><p>根据项数分规律，如9项可以分三三</p><p>八项二二</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129181910063.png" alt="image-20240129181910063"></p><blockquote><p>小数点的题，一般是小数点分开了两组数</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129185242615.png" alt="image-20240129185242615"></p><h1 id="分数数列"><a href="#分数数列" class="headerlink" title="分数数列"></a>分数数列</h1><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129204730190.png" alt="image-20240129204730190"></p><h2 id="交叉"><a href="#交叉" class="headerlink" title="交叉"></a>交叉</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129205205977.png" alt="image-20240129205205977"></p><h2 id="通分"><a href="#通分" class="headerlink" title="通分"></a>通分</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129210340640.png" alt="image-20240129210340640"></p><h2 id="反约分"><a href="#反约分" class="headerlink" title="反约分"></a>反约分</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129215045127.png" alt="image-20240129215045127"></p><blockquote><p>出题人将数字约分，改变增长规律</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129220730103.png" alt="image-20240129220730103"></p><blockquote><p>有整数的题一般要化成分数，之间有乘除或者变化的规律(可以将答案化成题目的分母)</p></blockquote><h3 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h3><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129221415845.png" alt="image-20240129221415845"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129221830435.png" alt="image-20240129221830435"></p><blockquote><p>有0的时候很可能就是做加法</p></blockquote><hr><h1 id="幂次数列"><a href="#幂次数列" class="headerlink" title="幂次数列"></a>幂次数列</h1><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129222827782.png" alt="image-20240129222827782"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129223152202.png" alt="image-20240129223152202"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129224252048.png" alt="image-20240129224252048"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129225647832.png" alt="image-20240129225647832"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240129230202016.png" alt="image-20240129230202016"></p><hr><h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><h2 id="1-基础数列"><a href="#1-基础数列" class="headerlink" title="1.基础数列"></a>1.基础数列</h2><h3 id="常数数列、等比、等差一眼排除"><a href="#常数数列、等比、等差一眼排除" class="headerlink" title="常数数列、等比、等差一眼排除"></a>常数数列、等比、等差一眼排除</h3><h3 id="质数、合数看数字"><a href="#质数、合数看数字" class="headerlink" title="质数、合数看数字"></a>质数、合数看数字</h3><p>4开头有9 合数</p><p>2,3,5,7质数(看开头与357)</p><h3 id="错差"><a href="#错差" class="headerlink" title="错差"></a>错差</h3><p>(1,2,3)或(2,4,6,8)两眼排除</p><p>或者是2357//4689(质数合数)</p><p>立方差</p><h2 id="2-多重数列看数量"><a href="#2-多重数列看数量" class="headerlink" title="2.多重数列看数量"></a>2.多重数列看数量</h2><h3 id="两个括号一般隔着混"><a href="#两个括号一般隔着混" class="headerlink" title="两个括号一般隔着混"></a>两个括号一般隔着混</h3><h3 id="一个括号8个，可能是同规律两组"><a href="#一个括号8个，可能是同规律两组" class="headerlink" title="一个括号8个，可能是同规律两组"></a>一个括号8个，可能是同规律两组</h3><h3 id="数量8，两组看"><a href="#数量8，两组看" class="headerlink" title="数量8，两组看"></a>数量8，两组看</h3><h3 id="数量9，三组看"><a href="#数量9，三组看" class="headerlink" title="数量9，三组看"></a>数量9，三组看</h3><h2 id="3-分数数列看分数"><a href="#3-分数数列看分数" class="headerlink" title="3.分数数列看分数"></a>3.分数数列看分数</h2><h3 id="等差、错差一眼看"><a href="#等差、错差一眼看" class="headerlink" title="等差、错差一眼看"></a>等差、错差一眼看</h3><p>错乘，可能还有错除</p><blockquote><p>一般看后面的大数字容易找出规律</p></blockquote><h3 id="有整数要化分数"><a href="#有整数要化分数" class="headerlink" title="有整数要化分数"></a>有整数要化分数</h3><p>分子分母12345、质数、合数、数字等差</p><h2 id="4-幂次数列一眼看"><a href="#4-幂次数列一眼看" class="headerlink" title="4.幂次数列一眼看"></a>4.幂次数列一眼看</h2><p>记住一些数字的平方和立方</p><p>变形也是+1-1</p><p>同立方</p><p>递增12345数字</p><h1 id="非特征数列"><a href="#非特征数列" class="headerlink" title="非特征数列"></a>非特征数列</h1><p>多级数列</p><p>递推数列</p><p>图推数列</p><h2 id="多级数列"><a href="#多级数列" class="headerlink" title="多级数列"></a>多级数列</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130153638694.png" alt="image-20240130153638694"></p><p>作商</p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130153610887.png" alt="image-20240130153610887"></p><p>多级作差</p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130170554171.png" alt="image-20240130170554171"></p><blockquote><p>一眼只能幂次或者多级作差(做差一次后还有四组数据)</p><p>幂次无规律就做差(作和)</p><p>最后规律一般是12345//246810//两倍关系</p></blockquote><p>先做差和先做和是没区别的 </p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130180144276.png" alt="image-20240130180144276"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130184652794.png" alt="image-20240130184652794"></p><blockquote><p>​    五个数请大胆地搞两次(无论括号在哪)</p></blockquote><h2 id="练习-1"><a href="#练习-1" class="headerlink" title="练习"></a>练习</h2><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130190835078.png" alt="image-20240130190835078"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130191523122.png" alt="image-20240130191523122"></p><blockquote><p>有时候可能是循环</p></blockquote><hr><h2 id="递推数列"><a href="#递推数列" class="headerlink" title="递推数列"></a>递推数列</h2><blockquote><p>一个最后才需要考虑的</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130221717193.png" alt="image-20240130221717193"></p><blockquote><p>一般都是两项推出下一项</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130222139363.png" alt="image-20240130222139363"></p><blockquote><p> 三个数决定一条方程</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130230135457.png" alt="image-20240130230135457"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130231429662.png" alt="image-20240130231429662"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130231859047.png" alt="image-20240130231859047"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130232904478.png" alt="image-20240130232904478"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130232920658.png" alt="image-20240130232920658"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240130233722729.png" alt="image-20240130233722729"></p><hr><h1 id="23广东省考"><a href="#23广东省考" class="headerlink" title="23广东省考"></a>23广东省考</h1><blockquote><p>考的较多的是数字关系，而不是增减变化</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131163718253.png" alt="image-20240131163718253"></p><blockquote><p>这种题叫机械拆分</p></blockquote><p>基础数列上</p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131160059249.png" alt="image-20240131160059249"></p><blockquote><p>经常在一些基础数列上，在数字上下功夫。而不是数学关系</p></blockquote><p>多重数列</p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131163113056.png" alt="image-20240131163113056"></p><p>分数上考的错乘比较多</p><p>递推数列</p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131160930053.png" alt="image-20240131160930053"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131163614033.png" alt="image-20240131163614033"></p><h1 id="22年省考"><a href="#22年省考" class="headerlink" title="22年省考"></a>22年省考</h1><blockquote><p>22年常考多级数列的做差</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131175611937.png" alt="image-20240131175611937"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131171537855.png" alt="image-20240131171537855"></p><blockquote><p>那些规律做差做和都会跑向同一个答案</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131174718421.png" alt="image-20240131174718421"></p><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240131175826287.png" alt="image-20240131175826287"></p><blockquote><p>两边方向都可以试一下约分</p></blockquote><h1 id="21年省考"><a href="#21年省考" class="headerlink" title="21年省考"></a>21年省考</h1><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240202223426485.png" alt="image-20240202223426485"></p><blockquote><p>对平方数还是不够敏感</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240202223541172.png" alt="image-20240202223541172"></p><blockquote><p>常规题，要不下次先看机器分割？</p></blockquote><p><img src="/2024/02/20/%E6%95%B0%E5%88%97%E8%BF%90%E7%AE%97/image-20240202223712682.png" alt="image-20240202223712682"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>promise</title>
       <link href="/2023/12/08/promise/"/>
       <url>/2023/12/08/promise/</url>
@@ -294,6 +307,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
+      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/background.css"/>
       <url>/css/background.css</url>
       
@@ -304,9 +328,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/%E8%AF%AD%E6%B3%95.js"/>
-      <url>/js/%E8%AF%AD%E6%B3%95.js</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -326,31 +361,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
